@@ -6,12 +6,7 @@ class Calculadora
 	end
 
 	def conta(soma1, soma2)
-		result = soma1 + soma2
-		puts result
-	end
-
-	def soma(i, i1)
-		# code here
+		soma1 + soma2
 	end
 end
 
