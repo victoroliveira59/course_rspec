@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.0.2"
+ruby "2.7.8"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.7", ">= 7.0.7.2"
-
+# gem "rails", "~> 7.0.7", ">= 7.0.7.2"
+gem 'rails', '~> 6.1', '>= 6.1.7.6'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -69,4 +69,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+	gem 'rspec-rails', '≳ 3.8'
 end
